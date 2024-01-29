@@ -1,0 +1,85 @@
+type: edu
+custom_name: "Task: Advanced Errors 2"
+files:
+  - name: src/lib.rs
+    visible: true
+    placeholders:
+      - offset: 793
+        length: 31
+        placeholder_text: "// TODO: Complete this function"
+        initial_state:
+          length: 31
+          offset: 793
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: fY7T+2sg9Oby+ydUTyMJ4B7pegnHq2YsRtrQwguWNZ4=
+      - offset: 834
+        length: 108
+        placeholder_text: |-
+          // TODO: Make ParseClimateError suitable for propagating errors in main.
+          // See hints if you are in trouble.
+        initial_state:
+          length: 108
+          offset: 834
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: gYmmppv7WlMHq3kKxYBU5lAp3kChakE2QaD+/zN200nhnj32DWTrH9f4F4mUAHat
+      - offset: 1439
+        length: 33
+        placeholder_text: /* Complete the implementation */
+        initial_state:
+          length: 33
+          offset: 1439
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: qTDgByRTGA1GkjrJ60jHVuId4MTmCXyDgK5sD0fRR0H/jDupSoQ5WmfK1RsmI8tVlYhFFSz20LQqCBkRYYFsLWZrtr5QyuAUSwQLbR5tG6WfexKuZ7/HgpjfhK5juA4xh4+gEXPM496D6Y3/M4h5GxC8jcOFy8vBZzVY8/l3352O5LLkNBdTkCCtHsPJ7hr3Lry0heVXa0tZNIxODTPpzwrGrE/3pIe7sP4KN1gExOA=
+      - offset: 2067
+        length: 21
+        placeholder_text: /* Add a condition */
+        initial_state:
+          length: 21
+          offset: 2067
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 9Er4EI09/w2eAowgiqoaaGhAcor++UBRFioZU2M7Puk=
+      - offset: 2136
+        length: 47
+        placeholder_text: /* Return an error if the city name is empty */
+        initial_state:
+          length: 47
+          offset: 2136
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: OV8t/vMQJ6wHQMnoUHiiAbn6sVVvCKXAznmp/ok1nHqY8WC2xG90zox+m+ZQlp/TAQqvDznbIySsvHLVuONIRNGL6fEucVLIZa6uzzK1AQA=
+      - offset: 2196
+        length: 44
+        placeholder_text: /* Return an error if the string is empty */
+        initial_state:
+          length: 44
+          offset: 2196
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: DluMSxQYt6exEnDTMXzydeDOtK1FxQLgI9o3ymxwFP7sTRFnCTipSC0XLPdscaDDw+ZodHNQTajfGlUZ9mqjXIakN6mc8gCPp5gAhegYRME=
+    encrypted_text: 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
+    learner_created: false
+  - name: src/main.rs
+    visible: true
+    encrypted_text: 1lk2OKlQJEIA3czcTbaRGkjU3EhP12AHygnw1CkiHYulq3WRHJy9Czm0eDT7v7enJ3/p9ZCm+hVlf0XQ63tQoyuBzd2HUVRHT2VH1UFXaIauWZGGSbowG3b4dz0+0jds6MKl2Nxr+y9lv87Sgh0RL5aDc4DQ4c6/tAEAioNEKgscZWeJJreYatQBpAupN2OjogTcH+TGUwSVMPNn9BibsymhvH9TD+nJ64nEOOA1l5GmJsb6HNsZvTQle7LP7PKxyRTFi1N5Ip/zc/RVZOwU31qEcJ3J8x+EPCqQ7scynoU=
+    learner_created: false
+  - name: Cargo.toml
+    visible: false
+    encrypted_text: m9XZNRB4SP+Ysnl4An4VfHLnwhazHtkWOrt1UAAvMKY6xhtA+nRxAbsbSPH/NgF88Wwnw1T3dWWW3THTysDfH74jcIp2EH7S7Zlbr7P4g9E=
+    learner_created: false
+  - name: tests/tests.rs
+    visible: true
+    encrypted_text: 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
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Error+Handling+/+Errors+Primer+/+Advanced+Errors+2
+status: Unchecked
+record: -1

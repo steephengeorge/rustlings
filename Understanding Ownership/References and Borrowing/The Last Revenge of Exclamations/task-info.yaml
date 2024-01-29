@@ -1,0 +1,49 @@
+type: edu
+custom_name: "Task: The Last Revenge of Exclamations"
+files:
+  - name: src/main.rs
+    visible: true
+    placeholders:
+      - offset: 76
+        length: 8
+        placeholder_text: /*TODO*/
+        initial_state:
+          length: 8
+          offset: 76
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: w5K+Pp9Ux+ipRhUCT+Yq/A==
+      - offset: 159
+        length: 8
+        placeholder_text: /*TODO*/
+        initial_state:
+          length: 8
+          offset: 159
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: w5K+Pp9Ux+ipRhUCT+Yq/A==
+      - offset: 246
+        length: 8
+        placeholder_text: /*TODO*/
+        initial_state:
+          length: 8
+          offset: 246
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: w5K+Pp9Ux+ipRhUCT+Yq/A==
+    encrypted_text: sl3O59VlDkdl7u9JaiP8DAO6jiTnPbcYFAwvnt2KhrH/JfgyS8ssryDp0mF/KcI7Xrjj86LrwIn9lHPLtmew0Zs0GO0Vshgr1tQZx3JWNKyW574PlDTPHmS0kNAbRsnaoLa3V8m4NsPYt3yn3cateSkYIDC3WvkrvUTM6YA72dyhgUix03lzWtaTUnfWH9RCaHSH+NAi6zJpK/6QEdmNvsClBMfTzzib0MoErIqikzsXFeS7BrkDgWH+9K5gentpkSKXzewBPDU7Hx90JTamiqbJKkuwq5Ti7wGR2Q1n3QiGZ0DXZcWc2artVdCSTmsGbyXvE5qnQ4d3eNB1HiazFMbJBIvV4/rfxGGRZm3427DyAJX5X/WsSYBOnN2HVaSUY61CG9fwWbH3y4azYV0XBQ==
+    learner_created: false
+  - name: Cargo.toml
+    visible: false
+    encrypted_text: m9XZNRB4SP+Ysnl4An4VfH5c3iJFBtuMTMJDrfgCr/JYciz8yYf2HvUbYa8E60N1d9RW6SxbjZdEOtE/+Kqzdg/9ctiszzeiVFguLh5cSFB8ESuLAITs8651zUimzh+Gc2uEtXt2quEAzzDX7O82kQ==
+    learner_created: false
+  - name: tests/tests.rs
+    visible: false
+    encrypted_text: JBpqDB0y/rOhs2dxJdUswokSTIxEtgg3UzU09hr0HplWIuxmDGG5ThhPhmwedhkEH0vaoBigIfzknTGDSFazNA7zEdepIGdjF0+KHP6HXRRJPe5bDUSuklcnKePFT+zeyARSice6LAUEMyTYf7Lv4miEC0H8w2BaMm1NTDuryU8OzkUGcbL4Wp47voR7j7zzSO2ldbCqYkhDVqVJKXrCQHttbIABG3be8xLg8OzU56ZEBWPyzLLsy2jSkbK6KygqW90d5mpVFPzm1LtvvzhYDLeDjk8B79d6u/HeYy0/zniORbjFBFR63mIZYEy5HBn6ChPkRGags8IQFVmthMtLdH+ik8LbtactGzonkDnXsLYUkhupZJ885EaWTbaGGOapamo9MRP5I1ryDhV+gX3wr2D5I6oHpFUlP9B/Wkn2vSaZPylcS+IjremzuSGIKOMTpZwk66ohIlZFhyELnEWJS6Ohw4fX7VrmVE/JtMiDsOYHmtQuDFOhkEzI/nrnrQBLdj/e6tAK64PhscXhAjYxO17UXZnFY6gWNijQLguzJ9RZ3ac9lYKM+xqNCjwddMTpJeMcjYjzdl11KqTKEAD7oNWycTx7FW3lrHLqykoxVYMGMUcqtllkqh0427AbwJJEhy6QNBSUJILH+Rry/vJEzMmV+BBJPy3ZiydrkH0EPUBx8WwDx9mGIY8Ba8AVVZbHB3U0qCOL2vb6ZfAdTXHZKtvfQDhrIIzm+85qO5iMYB7pwu19NzeQO7bSPN6ogtvED/PFigP++N77HlBqZWpQKO36Ok8QvJ7sTLd7xpdCi86CcGvcNnbDiA0+l3Aq33t52J/CruIo2rQoEEee5xwPUxDFfzZrT/11/HvO9EtFd8EXKW57gcQW9qSN43Fk32weppOHCqY5OLjUDr250jFMQKew/vtleSSaeQLrI1Cz72vEPQZ+VRQjoMrk2hCk0Ec/2XjCGopFeRQNL3WWSSrjoLqE4bvGm0vOj5Cb1HxzUwXDza9H171dYS9hM3oq8z4DS6fTHSx9U58k2I9yYPtQFp9SmAEMFmslVcnLCrdSE9/msrNp31+eal2Hkf64uG49+HMRQEja+2yaxplsyfVsV7ijN5St/LibVDnLvuOCYWm76PwQmOSHtwQXGXxoN04NPD2FqNs6wP1YfbISn5tjISh6SqfiEJmBSLl3qRhFmKF5RnUIurzWkOM1Z54EbIl2it6LBAqvoWQ3/aOnrZeFXg7ZzvHQIzyEtHaissEdNFaVY+kYDr31zq2eaifrU1jh8QnY0l6VlFS+aa7eu+nb2kJC1Jf5uUsnCOctFQMoyL5Vj/a/yO8Vk119ZsVq83ak
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Understanding+Ownership+/+References+and+Borrowing+/+The+Last+Revenge+of+Exclamations
+status: Unchecked
+record: -1

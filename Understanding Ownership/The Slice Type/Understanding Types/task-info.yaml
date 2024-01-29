@@ -1,0 +1,79 @@
+type: edu
+custom_name: "Task: Understanding Types"
+files:
+  - name: src/main.rs
+    visible: true
+    placeholders:
+      - offset: 25
+        length: 1
+        placeholder_text: 1
+        initial_state:
+          length: 1
+          offset: 25
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: oa+nVSRiKi7L3SNrfCrSCA==
+      - offset: 66
+        length: 4
+        placeholder_text: 1..4
+        initial_state:
+          length: 4
+          offset: 66
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: Zr6Id1v9UKU5L0UVepBIKg==
+      - offset: 81
+        length: 23
+        placeholder_text: "nice_slice == [2, 3, 4]"
+        initial_state:
+          length: 23
+          offset: 81
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: aupqMOqIQ5EXO3YFxsJQTrHGD9THlIXsXNwIPHWjV1c=
+      - offset: 259
+        length: 16
+        placeholder_text: type placeholder
+        initial_state:
+          length: 16
+          offset: 259
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: 2NBORuR2M9+V9dBBUHx7yg==
+      - offset: 307
+        length: 16
+        placeholder_text: type placeholder
+        initial_state:
+          length: 16
+          offset: 307
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: VjS8Kb4YH2ElDggYa6osTg==
+      - offset: 374
+        length: 16
+        placeholder_text: type placeholder
+        initial_state:
+          length: 16
+          offset: 374
+        initialized_from_dependency: false
+        selected: false
+        status: Unchecked
+        encrypted_possible_answer: qd8iNVaTHmU++TLXX++3rg==
+    encrypted_text: sl3O59VlDkdl7u9JaiP8DMBeHJpDjB3ZlodS77ATN6QdOkS+6MyiYOCwmcmmDN8PD5abYD3og/DkO91ZzaDQH6nF3u/hYi2bQ/1L1Ts6pZD8ctkykSLDSUcSSVfgWL6UrbC0WvcFNsHx121PeID+UfHl2CbD0jB9ZaLNEC/eUM2yghIQzsH+1QUx8a+Q9JzS3Tugdfm1LiMIOMIDeZcTn2mNL982aCW7je/K1u6HjdcQZQHSH83t7MqobeCcJuc+pVJs8yJjWtEs20bA4Pq+R9qmBtpBuwVdSs8WRl1oz+uGw0uDWvA/Dn+IM2uLQwWSfIsm3VeIxwLOcvprjgiJzf/f2gV/5dxWL/9gJrvZcC2nHCDzT8EvjKVyUvHefHe/6/JzW1o5AnCHFgcZ4bW0n6hZw+TwdkCBAKWidl/S2bjI22svC0kSy8QXzrI+JABtpQvL5qsT7qPngvJvOq+UPXcdLipAEDmBb0vXkuaRnz6WPSyt8m1NeQLn/nKBaxQ9+iqtnv4fGtqFFLGuHOjoTn4hnjwwuc9s0v+dDkmKZdk=
+    learner_created: false
+  - name: Cargo.toml
+    visible: false
+    encrypted_text: m9XZNRB4SP+Ysnl4An4VfGvDoweKJ2+bMp5h5OSI+uz2Jytu91UHSU1orhMvAYs7WHk4vsZOrPXDhYh9r+gP1DH2R90zw19ktqw3stfeu+cfr/Yuk9VvJlAd3pkUWaA8DMGspBx78SMDABvaUVCgZA==
+    learner_created: false
+  - name: tests/tests.rs
+    visible: false
+    encrypted_text: JBpqDB0y/rOhs2dxJdUswqwWJVLvnuMqXQEL/lIRGhLDvCJyq4TVWOnQ52Stbky2QTR8WFa7MS55unl3Ojybog0KdYLj1bVDjmEGPSZUEcWSQ7AFh/Ujwh4WQK6pvqZxQtwocftJga/2gFnfqTnvMbpGFA0km/uQ8BV+M+BwO4JgMQ4S/2HjEXK1s4WIXF/8nY2fv1F1s1LqPWDDMjPsJKB5H053wjMWgeTI+9HPz9YvREN2BKzwBaCwpWksHkT8DdDbOHvqiIHDuGpLozwLD0WxZXkFlkaUHCTGmbYVo6BXipsZvWN2srm0kxUrUGEyPFQEbMtS8vR38AHW9A7pJ/iZccSeyVgzopanUvCIfN3yF9MtfPRRmOp8Wl0QqtZ/D2rh1AoohRcqZkl9O7R7ThLurqq/Dy4+OonPPZFg3Dj6Rlzk9Tkb8lFq9yvgMWgqv4NGr5nB5Gb9mreOH+7SyvN2xgPD8ZXCaJzZIevoO5zpA7zIFWwYr5LRIkk2bxyUE8powOMib4+3YZ54TUPMYlvbnGlnuKeXpk+0ZHYkPTIgA5GX34FDadLM/IWUk/M74+KWxlAq6mVFlHwyGidpH24k5pC7g1xapoMGbsUiFY9SiyfTUYXsDoXrhiNqQ7f49jF1bDQFbwoyl7JhdlnvNTJ1d7HXW9VpeJ/ojeCLZoEok+Pdpnl9MjsALmCqG11RcVSGPEJx/C5KsGeM+N/PJfuNR/LabVe/EsmfcfAAa7Ub6nkFBMbk9Q+ZvkLbqvqhUH0pT7R01/6T9OzAbNjn9JIQTzg8jadHhJ3Y8YNvm8oO/WcNtE+F0Opvj2dLI9T+Z7wM0V7gW6zQKma7ES4BzWZAkykQsvRvjboH7zykAOUT7M3q6nv86KCpL1SMwlrxjcxWoLYhe2C8mCN5fvqg7beAVjThDcRJLt4YMFIo0FAEqM/KC1/SkH+AO9cQrxqxkQorKciDh1oDbfFWuRfOsA==
+    learner_created: false
+feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Understanding+Ownership+/+The+Slice+Type+/+Understanding+Types
+status: Unchecked
+record: -1
