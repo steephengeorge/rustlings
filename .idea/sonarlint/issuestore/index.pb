@@ -75,3 +75,33 @@ n
 >Common Programming Concepts/Repetitions/Find a sum/src/main.rs,d\c\dca82e427e673c1eeab7844fd7ecb942fb15b7d1
 k
 ;Understanding Ownership/What is ownership/Intro/src/main.rs,b\c\bcdb45f22091c05ace0d7b5cdab321559676e8ae
+t
+DUnderstanding Ownership/What is ownership/Variable Scope/src/main.rs,5\e\5eb2b5e26521dcb568e730bcdd5ebf4889fdd157
+t
+DUnderstanding Ownership/What is ownership/Explore Scopes/src/main.rs,8\f\8fadf3089db725a29a130beebd67a1b191b97bce
+u
+EUnderstanding Ownership/What is ownership/The String Type/src/main.rs,5\5\55ef681e2d049b7b627bdb2e2fd1a5e9bf64b511
+Ä
+PUnderstanding Ownership/What is ownership/Build String from Literals/src/main.rs,a\4\a4a9eb9e266f1d3dc7bb3740fab36fa519096aed
+v
+FUnderstanding Ownership/What is ownership/Moving Ownership/src/main.rs,3\9\39e94cec3ab74652abaf7b2b2ec5e734c101f4b9
+{
+KUnderstanding Ownership/What is ownership/Who Owns the One Ring/src/main.rs,6\6\66eac05d93b31aea9164db53ec8af23099de7cc6
+t
+DUnderstanding Ownership/What is ownership/Clone and Copy/src/main.rs,3\8\382605fb949bd52270f279f442f1c322030777ad
+{
+KUnderstanding Ownership/What is ownership/Tuples, Clone or Copy/src/main.rs,6\5\65f5d17302b6524d5e40dae8c3e49fc61e6b650c
+}
+MUnderstanding Ownership/What is ownership/Ownership and Functions/src/main.rs,8\2\82f238b9d857714251dbe816f6c736ad37bf4f3b
+}
+MUnderstanding Ownership/What is ownership/Return Values and Scope/src/main.rs,3\f\3faab9a645bb959de2f3540e0e61aa47b08c6e10
+w
+GUnderstanding Ownership/What is ownership/More Exclamations/src/main.rs,d\b\db0630d5f443acf9d54ed6d4c474168b5cf530c6
+y
+IUnderstanding Ownership/What is ownership/More Exclamations 2/src/main.rs,c\2\c293ded0034ae978d5c2dc4d870480387d3a87e6
+ç
+]Understanding Ownership/What is ownership/More Exclamations with Mutable Argument/src/main.rs,1\2\12386b493ac6892a8e8faaf8f76dc7f31688e4e0
+â
+YUnderstanding Ownership/What is ownership/More Exclamations without Arguments/src/main.rs,0\0\007c80160cb097557d1ec24b0bcf71a91c460079
+r
+BUnderstanding Ownership/References and Borrowing/Intro/src/main.rs,0\6\06b33db9c10615e7bbcaf66f9020d2f176135198

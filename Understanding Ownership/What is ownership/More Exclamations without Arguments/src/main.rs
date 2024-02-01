@@ -12,7 +12,7 @@ fn main() {
 }
 
 fn with_exclamation(s: String) -> String {
-    /* Create the "Hello" string here */
+    let mut str = s;
     str.push_str("!");
     str
 }
