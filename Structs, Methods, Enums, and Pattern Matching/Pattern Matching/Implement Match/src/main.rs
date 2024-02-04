@@ -1,6 +1,9 @@
 #[derive(Debug)]
 enum Message {
-    // TODO: implement the message variant types based on their usage below
+    ChangeColor(i32, i32, i32),
+    Echo(String),
+    Move{x:u8, y:u8},
+    Quit,
 }
 
 #[derive(Debug)]
@@ -33,7 +36,12 @@ impl State {
     }
 
     fn process(&mut self, message: Message) {
-        // TODO: create a match expression to process the different message variants
+        match message {
+            Message::ChangeColor(x, y, z) => self.change_color((x as u8,y as u8,z as u8)),
+            Message::Echo(str) => self.echo(str),
+            Message::Move {x,y} => self.move_position(Point{x, y}),
+            Message::Quit => self.quit(),
+        }
     }
 }
 
