@@ -1,4 +1,4 @@
-/* Add use statements here */
+use crate::first_floor::toys_room::i_love_toys;
 
 pub mod ground_floor;
 pub mod first_floor;
@@ -6,6 +6,7 @@ pub mod second_floor;
 
 pub fn day_x() {
     i_love_toys();
-    /* What's Alice doing here? */
+    ground_floor::storage_room::i_found_telescope();
+    second_floor::astronomy_tower::i_see_the_stars();
 }
 
