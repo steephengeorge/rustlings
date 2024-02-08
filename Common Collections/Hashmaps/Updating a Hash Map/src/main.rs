@@ -21,6 +21,8 @@ fn main() {
     for word in text.split_whitespace() {
         let count = map.entry(word).or_insert(0);
         *count += 1;
+
     }
+
     println!("{:?}", map);
 }
