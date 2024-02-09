@@ -1,4 +1,3 @@
 fn main() {
-    let mut shopping_list: Vec</* Something goes here */> = Vec::new();
-    shopping_list.push("milk");
+    let shopping_list: Vec<&str> = vec!["milk"];
 }

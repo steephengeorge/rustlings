@@ -5,24 +5,24 @@ files:
     visible: true
     placeholders:
       - offset: 313
-        length: 2
+        length: 13
         placeholder_text: ??
         initial_state:
           length: 2
           offset: 313
         initialized_from_dependency: false
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
         encrypted_possible_answer: wLmZxrQixD9SDgDf9Bsn6w==
-      - offset: 331
-        length: 2
+      - offset: 342
+        length: 13
         placeholder_text: ??
         initial_state:
           length: 2
           offset: 331
         initialized_from_dependency: false
         selected: false
-        status: Unchecked
+        status: Solved
         encrypted_possible_answer: wLmZxrQixD9SDgDf9Bsn6w==
     encrypted_text: WoACCO16t8kJzFueEjg72MuS9mcabGD7/4lPOlGpQA02jpOtX6qYZ/YxMjKrsN6PhxNruarcs7gwex9ZxWlInxKRaPEXk1ofcHaaNgYcr8sW5lC5EfAC6Wka51T/xo7kQyZJHC212QTFijjgNACAqYpfMjSbKyd0kCUFsYRPgktzHJD+7UaMK6O3Zv2PqKMtkzBjkfNAjRAp4ikv0/YS2i6t4YuZ5spcj/2DeWGzZzdKi6yFUrkKN1gGpZvOWi0mPED5GFIzmbnSjWA4E5CqRZ/XNkuceMx7HDieu9zcCMwcU3ppkuZr0CagZp7tK5G64dwM0RlBOlI9HGKQFbqSg+PblCTGcRfcJ4kZtzjbfQHkqGjhOX+KPFGhGZSbWA7ohFekFd9qPlUOb+0iw0aNDQYsyBjL0GZE6Af2uFAnslRbamm96iAKU1kjFrNFjHOMkU24728sFvVSy6vdcsDBbG9ACEAD5rmuUEPyojQZYBa+rZ8bqANXD3cViygJklaIi0lI4BAm/AH/nOA/UOvUyVKO1Kxf7kuoGyiyjzKILb8=
     learner_created: false
@@ -39,5 +39,8 @@ files:
     encrypted_text: bkl8x2oNClmfL+nPBJ7XY0IENqrWGeFKVLMIrwQ5/ArtNuYkc1A6t1s1HXaVjiew8XvxznPkmmr6P+v5zi6ZFSmXnuCfCqSk9n2AEWfO1xxGgXoRQEX2Yn08/trM6VY9LVGx6k42Wg+IAg7BHKyjvbJVqni2TB01qf+L4IkXP3WJZB66/rGiiv6pcVJkAaETFswgHJdlWlJ8JgJBEhXMjgNhADjpOzBujFj90U+O6XvmeljDsyi1x7IYWKaK+QtiMzpbXg4Xt6qh7/u+cbtisGQy8ewbHnjgp4PeMThIcEO0WLX2TTj+FR3EauACI8183HpUL2yez0ccMNoV3iJNze10+fMLfgtEHAZDj0QuC/wyrfXxFyiTB3EWJIaTMHGl+FyJhiCzcHzkprZ7faOPX8meiy7mFdvl2jAT1zBocI8IqG3bukDBXa/YGnOVop2pkk2auFbK8Dd9d11n9GNPzad4BYAn9yCFp9KX9BjLDqkIyAWV2U25aCeaND45PIUIshBWgT4w06ekfR2yr23HJYopKX4NjK2V0IHSyBfcV10fPYuBnTsS/TBPhu7yrw2n
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Generic+Types+Traits+and+Lifetime+/+Traits+/+Compare+Licenses
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 08 Feb 2024 22:36:57 UTC"
 record: -1
