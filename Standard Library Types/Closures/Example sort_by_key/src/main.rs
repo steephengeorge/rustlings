@@ -26,12 +26,12 @@ fn main() {
     println!("{:#?}", list);
 
     // Attempting to use an FnOnce closure with sort_by_key
-    let mut sort_operations: Vec<Rectangle> = vec![];
+    //let mut sort_operations: Vec<Rectangle> = vec![];
     let value = String::from("by key called");
 
     list.sort_by_key(|r| {
         // !!! ERROR:
-        // sort_operations.push(value);
+        //sort_operations.push(value);
         r.width
     });
     println!("{:#?}", list);

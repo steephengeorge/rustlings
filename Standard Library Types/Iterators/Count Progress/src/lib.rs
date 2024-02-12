@@ -18,7 +18,10 @@ pub fn count_for(map: &HashMap<String, Progress>, value: Progress) -> usize {
 }
 
 pub fn count(map: &HashMap<String, Progress>, value: Progress) -> usize {
-    /* TODO */
+    map.values()
+        .into_iter()
+        .filter(|&progress|value == *progress)
+        .count()
 }
 
 pub fn count_stack_for(stack: &[HashMap<String, Progress>], value: Progress) -> usize {
@@ -34,5 +37,8 @@ pub fn count_stack_for(stack: &[HashMap<String, Progress>], value: Progress) -> 
 }
 
 pub fn count_stack(stack: &[HashMap<String, Progress>], value: Progress) -> usize {
-    /* TODO */
+    stack.into_iter()
+        .flat_map(|hash_map| hash_map.values())
+        .filter(|&progress|*progress == value)
+        .count()
 }
