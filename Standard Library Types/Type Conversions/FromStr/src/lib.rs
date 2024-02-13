@@ -1,3 +1,4 @@
+use std::any::type_name;
 use std::num::ParseIntError;
 use std::str::FromStr;
 
@@ -30,13 +31,27 @@ impl FromStr for Person {
     type Err = ParsePersonError;
     fn from_str(s: &str) -> Result<Person, Self::Err> {
         if s.len() == 0 {
-            /* Return am appropriate error */
+            return Err(ParsePersonError::Empty);
         }
         let parts: Vec<&str> = s.split(',').collect();
-        /* Add a condition for the cases when there is a wrong number of fields and return an appropriate error */
-        /* Extract the first element from the split operation and use it as the name. Return an appropriate error if the field is empty. */
-        /* Extract the other element from the split and parse it as age. Return an appropriate error if something goes wrong. */
+        if parts.len() % 2 != 0 {
+            return Err(ParsePersonError::BadLen);
+        }
+        let name = parts.get(0).unwrap();
+        if name.len() == 0 {
+            return Err(ParsePersonError::NoName);
+        }
+        let age = parts.get(1).unwrap().parse();
+        if age.is_err() {
+            return Err(ParsePersonError::ParseInt(age.err().unwrap()))
+        }
+        let age= age.unwrap();
+        Ok(Person{
+            name: name.to_string(),
+            age
+        })
 
-        /* Return a Result of a Person object if everything goes well. */
+
+
     }
 }

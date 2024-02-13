@@ -16,7 +16,20 @@ impl Default for Person {
 
 impl From<&str> for Person {
     fn from(s: &str) -> Person {
-        // Write your code here
+        let mut split = s.splitn(2, ',');
+        let name = split.next().unwrap();
+        if name.is_empty() {
+            return Default::default()
+        }
+        if let Some(age_str) = split.next(){
+            if let Ok(age) = age_str.parse(){
+                return Person{
+                    name: name.to_string(),
+                    age,
+                }
+            }
+        }
+        Person::default()
     }
 }
 
