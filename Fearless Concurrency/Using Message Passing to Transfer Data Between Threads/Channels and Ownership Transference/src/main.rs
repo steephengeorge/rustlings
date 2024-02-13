@@ -9,7 +9,7 @@ fn main() {
         tx.send(val).unwrap();
 
         // !!! ERROR: val is moved to the main thread
-        println!("val is {}", val);
+       // println!("val is {}", val);
     });
 
     let received = rx.recv().unwrap();
